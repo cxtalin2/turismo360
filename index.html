@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zarate's</title>
+    <link rel="stylesheet" href="main.css"> 
+    <link rel="icon" href="images/Logoz.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#zarate"></a><img class="logo-image" src="./images/zarate's (1).jpg FONDO BLANCO LETRA NEGRA 500X500.jpg" alt="Logo Empresa">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#servicios">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#planes">Planes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#desarrolladores">Desarrolladores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <div class="header">
+            <h1>Potenciamos tu negocio en línea</h1>
+            <p>Nos especializamos en el diseño, desarrollo, y posicionamiento de la presencia online de tu negocio haciendo que tus necesidades sean trasmitidas y expresadas mediante nuestros diseños responsivos para garantizar que la audiencia adecuada pueda conocer tus servicios, productos, y su intención utilizando las mejores plataformas y lenguajes de programación para proyectarlos en medios móviles, o web de escritorio.</p>
+        </div>  
+        
+    </header>
+
+    <section id="nosotros">
+        <h2>Nosotros</h2>
+        <h2>Somos especialistas en...</h2>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+            <img src="images/logo wordpress.png" alt="Logo de tu sitio">
+            <img src="images/logoProgramacion.png" alt="Logo de tu sitio">
+            <img src="images/logoseo.png" alt="Logo de tu sitio">
+            <img src="images/logotiendaonline.png" alt="Logo de tu sitio">
+    </section>
+
+    <section id="desarrolladores">
+        <h2>Desarrolladores</h2>
+        <div class="card-group">
+            <div class="card">
+              <img src="images/Picture Portafolio Zarate's .JPG" class="card-img-top" alt="Luis">
+              <div class="card-body">
+                <h5 class="card-title">Luis</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/hernan.jpg" class="card-img-top" alt="Hernan">
+              <div class="card-body">
+                <h5 class="card-title">Hernan</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/Catalina.jpeg" class="card-img-top" alt="Catalina">
+              <div class="card-body">
+                <h5 class="card-title">Catalina</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <p>¡Estamos aquí para ayudarte! Completa el formulario o utiliza la información de contacto a continuación:</p>
+        <form action="procesar_formulario.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    
+            <button type="submit">Enviar</button>
+        </form>
+        <div class="contact-info">
+            <h3>Información de Contacto</h3>
+            <p>Teléfono: (123) 456-7890</p>
+            <p>Correo electrónico: info@example.com</p>
+            <p>Dirección: Bogotá</p>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>Todos los derechos reservados © 2023 Zarate's</p>
+    </footer>
+</body>
